@@ -3,64 +3,6 @@
     font-family: 'Poppins', sans-serif;
 }
 
-/* Navbar */
-nav {
-    display: flex;
-    background-color: #f4f3f3;
-    height: 12vh;
-    align-items: center;
-    overflow: hidden;
-    top: 0;
-    
-    
-    /* justify-content: center; 
-    */
-}
-
-.item-left {
-    display: flex;
-    align-items: center;
-    justify-items: left;
-    
-}
-
-.item-left img{
-    width: 50px;
-    margin: auto 50px;
-}
-
-.item-left ul {
-    display: flex;
-    gap: 60px;
-    list-style: none;
-    margin-right: 60px;
-    
-}
-
-.item-left ul .active  {
-    text-decoration: none;
-    color: black;
-    font-weight: 800;
-}
-.item-left ul .non-active {
-    text-decoration: none;
-    color: black;
-}
-
-.item-right{
-    flex: 50%;
-    text-align: end;
-    margin-right: 30px;
-}
-
-.item-right a {
-    text-decoration: none;
-    padding: 8px 20px;
-    background-color: #111727;
-    color: white;
-    border-radius: 5px;
-}
-
 /* Content */
 .content {
     background-color: #e3e7eb;
@@ -74,6 +16,7 @@ nav {
     padding: 20px;
     width: 80%;
     margin: 100px auto;
+    box-shadow: 0px 5px 22px rgb(75, 72, 72);
 }
 
 .content-left {
@@ -104,6 +47,10 @@ nav {
     border-radius: 180px; 
 }
 
+.contact-download > a:hover {
+    background-color: orangered;
+}
+
 .contact-download > p .logo-download{
     width: 20px;
 }
@@ -123,6 +70,10 @@ nav {
     padding:8px; 
     border-radius: 360px; 
     display: inline-flex; 
+}
+
+.sosmed a:hover {
+    background-color: orangered;
 }
 
 .content-right .profile-card {
