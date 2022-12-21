@@ -17,16 +17,18 @@ nav {
 }
 
 .item-left img{
-    width: 50px;
-    margin: auto 50px;
+    width: 70px;
+    margin: auto 40px;
+    margin-left: 90px;
 }
 
 .item-left ul {
     display: flex;
-    gap: 60px;
+    gap: 30px;
     list-style: none;
     margin-right: 60px;
-    
+    padding-left: 0px;
+    font-size: larger;
 }
 
 .item-left ul .active  {
@@ -52,12 +54,13 @@ nav {
 .item-right{
     flex: 50%;
     text-align: end;
-    margin-right: 30px;
+    margin-right: 100px;
+    font-size: larger;
 }
 
 .item-right a {
     text-decoration: none;
-    padding: 8px 20px;
+    padding: 10px 20px;
     background-color: #111727;
     color: white;
     border-radius: 5px;
